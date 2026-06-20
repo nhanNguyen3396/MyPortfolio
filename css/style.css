@@ -1,0 +1,25 @@
+.award {
+    padding: 100px 0;
+    /* position: relative; */
+    background-image: url(../img/memphis_3.png);
+    background-position: bottom left;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+    /* position: absolute; */
+}
+
+/* .award__bg {} */
+
+.award__left {
+    background: rgba(255, 255, 255, .25);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .18);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .3);
+    padding: 45px;
+}
+
+.award__right img {
+    width: 100%;
+}
